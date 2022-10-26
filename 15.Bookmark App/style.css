@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #333;
+}
+#addBookmark {
+  font-size: 30px;
+  padding: 10px;
+  background: red;
+}
+.item {
+  width: 300px;
+  height: 100px;
+  background: #fff;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+#item-holder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.item .close {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+
+.name a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #000;
+}
+
+.name img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  vertical-align: sub;
+}
+
+#modalContainer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+#modalContainer #modal {
+  width: 500px;
+  height: 350px;
+  background: #333;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 90%;
+}
+
+#modalContainer h3 {
+  font-size: 25px;
+}
+
+.showModal {
+  display: flex !important;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 30px;
+}
+#modalForm {
+  width: 100%;
+}
+
+.form-group input {
+  width: 90%;
+  padding: 10px;
+  font-size: 20px;
+}
+.closeModal {
+  color: red;
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 50px;
+  cursor: pointer;
+}

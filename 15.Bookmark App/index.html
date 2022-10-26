@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/5d07aaf423.js" crossorigin="anonymous"></script>
+  <title>Bookmark App</title>
+</head>
+
+<body>
+
+  <button id="addBookmark"><i class="fa fa-plus"></i>
+    Add Bookmark</button>
+  <div class="container" id="item-holder">
+
+  </div>
+
+  <!-- modal -->
+
+  <div id="modalContainer" class="">
+    <div class="closeModal"><i class="fa fa-close"></i></div>
+    <div id="modal">
+      <h3>Create Bookmark</h3>
+      <form id="modalForm">
+        <div class="form-group">
+          <label for="">Website Name</label>
+          <input type="text" id="websiteName">
+        </div>
+        <div class="form-group">
+          <label for="">Website URL</label>
+          <input type="text" id="websiteURL">
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Add Bookmark">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+# WORD COUNT PROJECT
+
+![WORD COUNT PROJECT](screenshot.png)

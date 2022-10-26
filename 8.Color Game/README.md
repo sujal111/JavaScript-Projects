@@ -1,0 +1,3 @@
+# COLOR GAME IN JAVASCRIPT
+
+![COLOR GAME](screenshot.png)
